@@ -1,0 +1,47 @@
+body {
+    background-color: antiquewhite;
+    margin: 0;          /* Elimina márgenes del body */
+    padding: 0;         /* Elimina relleno del body */
+}
+  
+header {
+    width: 100%;
+    padding: 15px 0;
+    background: #0ea700;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra opcional */
+}
+
+h1 {
+    margin: 20px;
+    color: antiquewhite;
+
+}
+
+.pruebaFlex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.cajita:hover {
+    background-color: green;
+    border: solid 5px yellow;
+    color: yellow;
+}
+
+.cajita {
+    display: flex;
+    border: solid 5px rgb(0, 0, 0);
+    border-radius: 10px;
+    background-color: rgb(134, 212, 249);
+    padding: 50px;
+    margin: 10px;
+    justify-content: center;
+
+}
+
+footer {
+    text-align: center;
+}
