@@ -58,11 +58,14 @@ tr:nth-child(even) {
 }
 
 footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: black;
-    color:antiquewhite;
-    height: 100px;
+    color: aliceblue;
     width: 100%;
-    text-align: center;
+    bottom: 0%;
+    height: 100px;
 }
 
 img {

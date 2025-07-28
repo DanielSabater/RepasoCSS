@@ -2,18 +2,19 @@ body {
     background-color: antiquewhite;
     margin: 0;          /* Elimina márgenes del body */
     padding: 0;         /* Elimina relleno del body */
+    min-height: 100vh;
 }
   
 header {
     width: 100%;
     padding: 15px 0;
-    background: #0ea700;
+    background-color: brown;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra opcional */
 }
 
 h1 {
     margin: 20px;
-    color: antiquewhite;
+    color: black;
 
 }
 
@@ -43,5 +44,13 @@ h1 {
 }
 
 footer {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: aliceblue;
+    width: 100%;
+    bottom: 0%;
+    height: 100px;
+    position: relative;
 }
