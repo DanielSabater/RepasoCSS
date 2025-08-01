@@ -11,8 +11,28 @@ header {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra opcional */
 }
 
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0%;
+    padding: 0%;
+}
+
+li a {
+    color: antiquewhite;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    float: left;
+    margin: 0%;
+    padding: 14px 16px;
+
+}
+
 .gridhtml {
-    align-items: center;
+    background-color: darkslategrey;
+    color: antiquewhite;
+    text-align: center;
 }
 
 
