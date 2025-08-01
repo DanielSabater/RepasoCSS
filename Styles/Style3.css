@@ -17,6 +17,10 @@ header {
     /* Sombra opcional */
 }
 
+.active {
+    background-color: black;
+}
+
 ul {
     list-style-type: none;
     overflow: hidden;
