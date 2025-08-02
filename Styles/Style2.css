@@ -1,7 +1,10 @@
 body {
+    display: flex;
+    flex-direction: column;
     background-color: antiquewhite;
     margin: 0;          /* Elimina márgenes del body */
     padding: 0;         /* Elimina relleno del body */
+    min-height: 100vh;
 }
   
 header {
@@ -84,4 +87,6 @@ footer {
     width: 100%;
     bottom: 0%;
     height: 100px;
+    margin-top: auto;
+    
 }
