@@ -39,10 +39,16 @@ li a {
 
 }
 
+a:hover {
+    background-color: darkgreen;
+}
+
 .gridhtml {
     background-color: darkslategrey;
     color: antiquewhite;
     text-align: center;
+    position: sticky; top: 0%;
+    /* opacity: 90%; */
 }
 
 h1 {
@@ -60,7 +66,7 @@ h1 {
 }
 
 .cajita:hover {
-    background-color: green;
+    background-color: violet;
     border: solid 5px yellow;
     color: yellow;
 }

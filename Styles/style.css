@@ -33,10 +33,15 @@ li a {
 
 }
 
+a:hover {
+    background-color: darkgreen;
+}
+
 .gridhtml {
     background-color: darkslategrey;
     color: antiquewhite;
     text-align: center;
+    position: sticky; top: 0%;
 }
 
 
